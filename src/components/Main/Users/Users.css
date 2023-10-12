@@ -1,0 +1,21 @@
+section{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.user{
+    width: 32%;
+    height: 250px;
+    margin-top: 15px;
+    border: 1px solid white;
+    text-align: center;
+    /* border-radius: 10px; */
+    transition: 0.3s;
+}
+.user:hover {
+    transition: 0.3s;
+    box-shadow: 5px 5px 5px 5px  white;
+}

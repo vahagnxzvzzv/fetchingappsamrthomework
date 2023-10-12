@@ -1,0 +1,23 @@
+section{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.post{
+    width: 30%;
+    height: 310px;
+    margin-top: 15px;
+    /* box-shadow: 1px 2px 3px 2px  gray; */
+    text-align: center;
+    /* border-radius: 10px; */
+    transition: 0.3s;
+    border: 1px solid white;
+}
+.post:hover {
+    box-shadow: 10px 10px 10px 10px white;
+    transition: 0.3s;
+
+}

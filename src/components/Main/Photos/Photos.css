@@ -1,0 +1,26 @@
+section{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.photo{
+    width: 32%;
+    height: 250px;
+    margin-top: 15px;
+    /* box-shadow: 1px 2px 3px 2px  rgb(104, 77, 8); */
+    text-align: center;
+    border: 1px solid white;
+    transition: 0.3s;
+}
+.photo:hover {
+    box-shadow: 10px 10px 10px white;
+    transition: 0.3s;
+}
+
+.img{
+    width: 50px;
+    height: 50px;
+}
